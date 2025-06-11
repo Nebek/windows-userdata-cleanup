@@ -37,7 +37,7 @@ The script runs:
 
 4. Choose mode:
    - **Mode 1** (with logging) - saves details to `log.txt`
-   - **Mode 2** (without logging) - faster, no log files
+   - **Mode 2** (without logging) - no log files
 
 5. The script automatically:
    - Creates 4 scheduled tasks in Task Scheduler
@@ -126,7 +126,6 @@ auditpol /set /subcategory:"{0cce9228-69ae-11d9-bed3-505054503030}" /success:dis
 ### Performance
 - Uses `-Force` and `-ErrorAction SilentlyContinue`
 - Background execution without UI
-- Optimized for speed and reliability
 
 ## Advanced Configuration
 
@@ -192,4 +191,4 @@ For issues or questions, check:
 
 ---
 
-**⚠️ Important:** This script deletes files permanently. Test in a safe environment before production use. 
+**⚠️ Important:** This script deletes files permanently.
